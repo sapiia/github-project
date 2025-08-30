@@ -45,3 +45,53 @@ nav ul li a {
 nav ul li a:hover {
     color: #6c7f99;
 }
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background: #fff;
+    color: #333;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.register-btn {
+    background-color: #5c6bc0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.watch-btn {
+    background-color: #f5a623;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hero-countdown {
+    text-align: center;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
