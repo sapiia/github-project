@@ -2,118 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio Pley Studic</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./css/style2.css">
+
 </head>
 
 <body>
-
-    <!-- Navigation -->
     <header class="navbar">
         <div class="logo">Studio Pley</div>
         <div class="lgo">
             <nav>
                 <ul class="nav-links">
                     <li><a href="home.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <a href="#" class="btn order-btn">Order Now</a>
         </div>
     </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Studio Pley <br><span>Studic</span></h1>
-            <p>Unleash futuristic creativity with next-gen visuals, sounds, and digital vibes.</p>
-            <a href="#" class="btn primary-btn">Get Started</a>
-        </div>
-        <div class="hero-visual">
-            <img src="./photo/5887339246220589389_120.jpg" alt="Visual Art" />
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <div class="feature-card">
-            <h3>Hoerere Cronus</h3>
-            <p>Explore cinematic creations and custom visuals designed for bold imagination.</p>
-            <a href="#" class="btn small-btn">Explore</a>
-        </div>
-        <div class="feature-card">
-            <h3>Nobe Fis</h3>
-            <p>AI-assisted editing tools and real-time collaboration that scale with creativity.</p>
-            <a href="#" class="btn small-btn">Software</a>
-        </div>
-        <div class="feature-card">
-            <h3>Urnamed Piliee</h3>
-            <p>Next-level sound design crafted for immersive digital storytelling experiences.</p>
-            <a href="#" class="btn small-btn">New</a>
-        </div>
-    </section>
-    <section class="hero-section">
-        <div class="left-content">
-            <div class="vr-images">
-                <img src="./photo/download (2).jpg" alt="VR 1" class="vr-img" />
-                <img src="./photo/images (2).jpg" alt="VR 2" class="vr-img small" />
-                <img src="./photo/download (3).jpg" alt="VR 3" class="vr-img small" />
-            </div>
-            <h2 class="section-title blue">Unlock the Metaverse:<br />Experience Reality, Pixel by Pixel</h2>
-            <p class="section-text">
-                Step into the Metaverse and experience a reality that unfolds pixel by pixel. Dive into immersive
-                worlds, explore limitless creativity, and make every virtual moment unforgettable.
+    <div class="container">
+        <!-- Left: Contact Info -->
+        <div class="contact-left">
+            <h2>Get in touch</h2>
+            <p><strong>First Music Contact,</strong><br>
+                Powerscourt Townhouse Centre<br>
+                59 William Street South<br>
+                Dublin 2
             </p>
-            <button class="btn play-btn">Play now ▶</button>
+            <p>Tel: +353 1 675 0529</p>
+            <p><a href="#">Made in Ireland Submission form</a></p>
+            <p>Email: <a href="mailto:digital@firstmusiccontact.com">digital@firstmusiccontact.com</a></p>
+            <p>General Enquiries: <a href="mailto:info@firstmusiccontact.com">info@firstmusiccontact.com</a></p>
+            <p><small>FIRST MUSIC CONTACT is a not for profit CLG company (CN 508012)</small></p>
+            <a class="consultancy-button" href="#" style="color: white;">BOOK A CONSULTANCY</a>
+        </div>
+        <!-- Right: Contact Form -->
+        <div class="contact-right">
+            <h2>Make a general enquiry</h2>
+            <form action="#" method="post">
+
+                <label style="color: white;">Name <span style="color:red;">(required)</span></label>
+                <div class="form-row">
+                    <input type="text" name="first_name" placeholder="First Name" required>
+                    <input type="text" name="last_name" placeholder="Last Name" required>
+                </div>
+
+                <label style="color: white;">Email <span style="color:red;">(required)</span></label>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <label style="color: white;">Subject <span style="color:red;">(required)</span></label>
+                <input type="text" name="subject" placeholder="Subject" required>
+
+                <label style="color: white;">Message <span style="color:red;">(required)</span></label>
+                <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
         </div>
 
-        <div class="right-content">
-            <img src="./photo/unnamed.jpg" alt="VR Woman" class="vr-large-img" />
-            <div class="touch-reality">
-                <h2 class="section-title purple">Touch The Reality</h2>
-                <p class="section-text">
-                    Step into the Metaverse and experience a reality that unfolds pixel by pixel. Dive into immersive
-                    worlds, explore limitless creativity, and make every virtual moment unforgettable.
-                </p>
-                <button class="btn play-btn blue-btn">Play now ▶</button>
-            </div>
-        </div>
-    </section>
-
-    <section class="newsletter-section">
-        <h3>Subscribe To Our Newsletter</h3>
-        <p>Step into the Metaverse and experience a reality that unfolds pixel by pixel. Dive into immersive worlds.</p>
-        <form class="newsletter-form" action="#" method="post">
-            <input type="email" placeholder="Your email address" required />
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
-
-
-    <!-- Services / Gallery Section -->
-    <section class="gallery">
-        <div class="gallery-item">
-            <img src="./photo/download (3).png" alt="Oceaa" />
-            <h4>Oceaa</h4>
-        </div>
-        <div class="gallery-item">
-            <img src="./photo/download (7).png" alt="Pos" style="background-color: white; border-radius: 20px;" />
-            <h4>Pos</h4>
-        </div>
-        <div class="gallery-item">
-            <img src="./photo/download (9).png" alt="Vivreet" />
-            <h4>Vivreet</h4>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="foote">
-        <p>© 2025 Studio Pley. Crafted with ♡ in the metaverse.</p>
-    </footer>
+    </div>
     <div class="footer">
 
         <!-- Features -->
@@ -193,7 +142,5 @@
         </div>
 
     </div>
-
 </body>
-
 </html>
