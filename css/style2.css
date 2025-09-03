@@ -1,0 +1,228 @@
+.navbar {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: rgba(249, 247, 250, 0.134);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.lgo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    font-size: 20px;
+    color: #c78cc9;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.btn {
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.order-btn {
+    background: linear-gradient(90deg, #ff4ecd, #716bff);
+    color: white;
+}
+
+.primary-btn {
+    background: #ff4ecd;
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(160deg, #1a0033, #3e1c60, #2d0c46);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+/* Left section - Contact Info */
+.contact-left {
+    flex: 1;
+    color: white;
+}
+
+.contact-left h2 {
+    color: #e60000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-left a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+.contact-left a:hover {
+    text-decoration: underline;
+}
+
+.consultancy-button {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Right section - Form */
+.contact-right {
+    flex: 1;
+}
+
+.contact-right h2 {
+    color: #e60000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+.submit-btn {
+    background-color: rgb(3, 184, 255);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(168, 168, 255);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 80px;
+    background: linear-gradient(160deg, #1a0033, #3e1c60, #2d0c46);
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 180px;
+    margin-bottom: 30px;
+}
+
+.footer h4 {
+    font-size: 14px;
+    color: #cccccc;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    display: block;
+    color: #b3b3b3;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer a i {
+    margin-right: 8px;
+    width: 16px;
+    text-align: center;
+}
+
+.footer .copyright {
+    font-size: 13px;
+    color: #999;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+}
