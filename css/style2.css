@@ -220,9 +220,19 @@ textarea {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .footer {
-        flex-direction: column;
-        padding: 40px 20px;
+@media (max-width:890px) and (min-width:700px){
+   .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+}
+@media (max-width:480px) and (min-width:300px){
+    .container{
+       display: flex;  
     }
+    .footer-column {
+    flex: 1;
+    min-width: 0px;
+    margin-bottom: 545px;
+}    
 }
