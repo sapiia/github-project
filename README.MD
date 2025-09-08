@@ -36,7 +36,7 @@ It is designed for artists, music companies, and fans who want a robust platform
 - About
 - Contact
 
-![Studio Pley Screenshot](image.png)
+![Studio Pley Screenshot](photo/about.png)
 
 
 ## In about page
@@ -46,7 +46,7 @@ It is designed for artists, music companies, and fans who want a robust platform
 - Urnamed Pilie
 
 
-![Studio Pley Screenshot](image-1.png)
+![Studio Pley Screenshot](photo/image-1.png)
 
 
 
@@ -57,14 +57,14 @@ It is designed for artists, music companies, and fans who want a robust platform
 
 
 
-![alt text](image-3.png)
+![alt text](photo/image-3.png)
 
 ## Information
 - Oceaa
 - Pos
 - Vivreet
 
-![Studio Pley Screenshot](image-4.png)
+![Studio Pley Screenshot](photo/image-5.png)
 
 ## Footer
 
@@ -73,7 +73,7 @@ It is designed for artists, music companies, and fans who want a robust platform
 - Follow
 - Legel
 
-![Studio Pley Screenshot](image-6.png)
+![Studio Pley Screenshot](photo/image-6.png)
 
 
 
@@ -83,11 +83,13 @@ It is designed for artists, music companies, and fans who want a robust platform
 
 ### Contact Page
 
-![Studio Pley Screenshot](./photo/Screenshot%202025-09-05%20094054.png)
+![Studio Pley Screenshote](photo/contact.png)
+
+
 
 ### Navbar
 
-![Studio Pley Screenshot](./photo/Screenshot%202025-09-05%20094548.png)
+![Studio Pley Screenshot](photo/nav.png)
 
 - Home
 - About
@@ -97,7 +99,7 @@ It is designed for artists, music companies, and fans who want a robust platform
 ---
 
 ### Header
-![Studio Pley Screenshot](./photo/Screenshot%202025-09-05%20095020.png)
+![Studio Pley Screenshot](photo/header.png)
 
 - Get in touch
     1. Email
@@ -111,7 +113,7 @@ It is designed for artists, music companies, and fans who want a robust platform
 
 ### Footer
 
-![Studio Pley Screenshot](./photo/Screenshot%202025-09-05%20095529.png)
+![Studio Pley Screenshot](photo/image-6.png)
 
 - Peatures
 - Company
